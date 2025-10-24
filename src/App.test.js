@@ -11,3 +11,7 @@ it('should render', () => {
 
   expect(screen.getByText('Business Contacts')).toBeInTheDocument();
 });
+
+it('should work under a miracle', () => {
+	expect(true).toBe(false);
+})
